@@ -1,0 +1,219 @@
+body{
+    background-color: #FDFDFD;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 300px;
+    height: 600px;
+    border-radius: 30px;
+    background-color: #414F65;
+}
+
+
+.mode-buttons{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 65px;
+    border-radius: 18px;
+    height: 30px;
+    border-style: solid;
+    border-color: #414F65;
+    margin: 20px;
+    background-color: #495870;
+    box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.385);
+   
+
+}
+
+.mode-buttons img{
+    background-color: white;
+    padding: 1px;
+    border-radius: 80%;
+    width: 18px;
+    height: 18px;
+    margin: 5px;
+    /* filter: drop-shadow(-8px 7px 5px rgba(0, 0, 0, 0.577)); */
+    box-shadow: -7px 6px 7px 0px rgba(0, 0, 0, 0.362),
+    5px -3px 10px 2px rgba(255, 255, 255, 0.218);
+
+
+}
+
+
+.mode-buttons svg{
+   width: 18px;
+   height: 18px;
+    margin: 5px;
+    padding: 1px;
+}
+
+.container1{
+    height:30px ;
+    margin-top: 100px;
+    
+    
+}
+
+.result{
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.numbers-container{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+}
+
+.row1{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    height: 50px;
+}
+
+.row2{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    height: 50px;
+}
+
+.row3{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    height: 50px;
+}
+
+
+.row4{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    height: 50px;
+}
+
+
+.row5{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 50px;
+}
+
+.yellowbuttons{
+    border-style: solid;
+    height: 55px;
+    width: 55px;
+    margin-right: 10px;
+    background-color: #f3a81a;
+    border-color: #f3a81a;
+    color: #FDFDFD;
+    border-radius: 50%;
+    font-family: "Arimo", sans-serif;
+    font-size: 20px;
+    font-weight:lighter;
+    font-style: normal;
+    box-shadow: -7px 6px 7px 0px rgba(0, 0, 0, 0.515),
+    5px -3px 10px 2px rgba(255, 255, 255, 0.218);
+}
+
+.whitebuttons{
+border-style: solid;
+ height: 55px;
+ width: 55px;
+ margin-right: 10px;
+ background-color:#e4e3e7;
+ border-color: #e4e3e7;
+ color: #69676a;
+ border-radius: 50%;
+ font-family: "Arimo", sans-serif;
+ font-size: 20px;
+ font-weight:lighter;
+ font-style: normal;
+ box-shadow: -7px 6px 7px 0px rgba(0, 0, 0, 0.362),
+ 5px -3px 10px 2px rgba(255, 255, 255, 0.218);
+}
+
+.numbers{
+   border-style: solid;
+   height: 55px;
+   width: 55px;
+   margin-right: 10px;
+   background-color:#3B4A62;
+   border-color: #3B4A62;
+   color: #B8C5D3;
+   border-radius: 50%;
+   font-family: "Arimo", sans-serif;
+   font-size: 20px;
+   font-weight:lighter;
+   font-style: normal;
+    box-shadow: -7px 6px 7px 0px rgba(0, 0, 0, 0.362),
+    5px -5px 10px 0px rgba(255, 255, 255, 0.305),
+    inset -1px 1px 1px  rgba(255, 255, 255, 0.523);
+}
+
+.zero{
+    width: 120px;
+    border-radius: 100px;
+}
+
+.light-mode{
+    background-color: #f5f5f5;
+}
+
+.light-mode .container{
+    background-color: #ffffff;
+}
+
+.light-mode .numbers{
+    background-color: #e8e8e8;
+    border-color: #e8e8e8;
+    color: #333;
+}
+
+.light-mode .mode-buttons{
+    background-color: #ddd;
+}
+
+.light-mode .whitebuttons{
+    background-color: #d5d5d5;
+    border-color: #d5d5d5;
+}
+
+.light-mode .result,
+.light-mode .amaliat{
+    color: black;
+}
+
+
+.light-mode  .mode-buttons{
+    border-color: white;
+    background-color: white;
+     box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.385);
+}
+
+.light-mode .mode-buttons img{
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.362),
+5px -3px 10px 2px rgba(255, 255, 255, 0.218);
+}
+
+.light-mode .mode-buttons svg{
+ background-color: #414F65;
+ padding: 1px;
+ border-radius: 80%;
+ width: 18px;
+ height: 18px;
+ margin: 5px;
+}
+
