@@ -9,6 +9,8 @@ body{
     height: 600px;
     border-radius: 30px;
     background-color: #414F65;
+    box-shadow: inset 2px 2px 8px 5px rgba(0, 0, 0, 0.207);
+
 }
 
 
@@ -191,9 +193,11 @@ border-style: solid;
     border-color: #d5d5d5;
 }
 
-.light-mode .result,
+.light-mode .result{
+    color: #4A515D;
+}
 .light-mode .amaliat{
-    color: black;
+    color: #92A2B9;
 }
 
 
@@ -217,3 +221,35 @@ border-style: solid;
  margin: 5px;
 }
 
+.container1{
+    display: flex;
+    flex-direction: row-reverse;
+    text-overflow: clip;
+    color: #92A2B9;
+    margin-right: 20px;
+    font-family: "Arimo", sans-serif;
+    font-size: 25px;
+    font-weight:lighter;
+    font-style: normal;
+}
+
+.result{
+    display: flex;
+    flex-direction: row-reverse;
+    color: #F4FCFF;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    font-family: "Arimo", sans-serif;
+    font-size: 50px;
+    font-weight:lighter;
+    font-style: normal;
+ }
+
+.result,
+.amaliat {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    min-width: 0;
+}
+
+ 

@@ -5,7 +5,7 @@ const numbers = document.querySelectorAll('.numbers')
 const oparaitors = document.querySelectorAll('.yellowbuttons')
 const showOperation = document.querySelector('.amaliat')
 const result = document.querySelector('.result')
-
+const other = document.querySelectorAll('.whitebuttons')
 let show=''
 
 themeBtn.addEventListener("click", () => {
@@ -17,12 +17,16 @@ themeBtn.addEventListener("click", () => {
 
     numbers.forEach(number=>
         Operation(number))
+        
     
     
     oparaitors.forEach(number=>
         Operation(number))
 
-       
+    other.forEach(number=>
+        Operation(number))
+
+
    
 
 
@@ -37,9 +41,18 @@ function Operation(number){
  }
     if (number.textContent === 'X') {
     show += '*';
-    } else {
-    show += number.textContent;
-}
+    } 
+    else if(number.value === '+/-'){
+        show+='-'
+    } 
+     else if(number.textContent === 'AC'){
+        show=''
+        result.textContent=''
+    }
+    else {
+         show += number.textContent
+    }
+
     showOperation.textContent = show;
 })
 }
